@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_leaf - checks if a node is a leaf 
+ * binary_tree_is_leaf - checks if a node is a leaf
  * @node: pointer to the node to check
  * Return: 1 or 0
  */
@@ -15,9 +14,9 @@ return (0);
 }
 
 /**
- * binary_tree_nodes - counts the nodes with at least 1 child in a binar tree
- * @tree: pointer to the root node of the tree
- * Return: 1 or 0
+ * binary_tree_nodes - counts the nodes with at least 1 child in a binary tree
+ * @tree: pointer to the root node of the tree to count
+ * Return: number of nodes
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
